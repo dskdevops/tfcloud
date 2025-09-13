@@ -6,5 +6,5 @@ provider "aws" {
 
 #creating the s3 bucket..
 resource "aws_s3_bucket" "bucket" {
-  bucket = "my-unique-bucket-name-harish-terraform12121212"
+  bucket = "my-unique-bucket-name-sharath-terraform12121212"
 }
