@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 #creating the s3 bucket...
-#resource "aws_s3_bucket" "bucket" {
-# bucket = "my-unique-bucket-name-sharath-terraform12121212"
-#}
+resource "aws_s3_bucket" "bucket" {
+     bucket = "my-unique-bucket-name-sharath-terraform12121212"
+}
